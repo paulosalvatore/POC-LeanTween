@@ -1,6 +1,5 @@
-﻿using System;
-using UnityEngine;
-using UnityEngine.Serialization;
+﻿using UnityEngine;
+using UnityEngine.Events;
 
 public enum UIAnimationTypes
 {
@@ -49,6 +48,9 @@ public class UITweener : MonoBehaviour
     [Header("Triggers")]
     [SerializeField]
     private bool animateOnEnable = true;
+
+    [SerializeField]
+    private UnityEvent onCompleteEvent;
 
     [SerializeField]
     private bool returnToInitialStateOnDisable = true;
@@ -232,6 +234,8 @@ public class UITweener : MonoBehaviour
     private void OnComplete(object obj)
     {
         StopAnimation();
+
+        onCompleteEvent?.Invoke();
     }
 
     #endregion

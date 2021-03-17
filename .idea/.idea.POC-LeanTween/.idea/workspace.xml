@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="774b2eaa-7d0e-46d5-8ef0-b447b495ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UITweener.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UITweener.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.POC-LeanTween/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.POC-LeanTween/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    <list default="true" id="774b2eaa-7d0e-46d5-8ef0-b447b495ab5a" name="Default Changelist" comment="Add UITweener">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UITweener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UITweener.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +66,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616015952430</updated>
-      <workItem from="1616015971203" duration="2593000" />
+      <workItem from="1616015971203" duration="3228000" />
     </task>
+    <task id="LOCAL-00001" summary="Add UITweener">
+      <created>1616018612253</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616018612253</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +97,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add UITweener" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add UITweener" />
   </component>
 </project>
